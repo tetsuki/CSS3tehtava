@@ -1,9 +1,9 @@
 body
 {
-	margin: 20px;
-	color: #000;
-	background: #fff;
-	font: "Times New Roman", Times, serif;
+
+	color: #000000;
+	background-color: #5976BA;
+	font: "Trebuchet MS", Helvetica, sans-serif;
 	font-size:120%;
 }
 
@@ -11,14 +11,15 @@ body
 {
 	float: left;
 	width: 1000px;
-	background: #bbb;
+	background: #5976BA;
+	color: #FFFFFF;
 }
 
 #nav
 {
 	float: left;
 	width: 200px;
-	background: #FFCC00;
+	background-color: #87ABFF;
 }
 
 #content
@@ -26,15 +27,18 @@ body
 	float: left;
 	width: 550px;
 	margin: 0 0 0 25px;
-	background: #FFFF00;
+	background-color: #87ABFF;
 }
 
 #extras
 {
 	float: right;
 	width: 200px;
-	background: #FFFF99;
+	background-color: #FFFFFF;
+	color: #5976BA;
 }
+
+
 
 .myimage
 {
@@ -52,6 +56,12 @@ body
 		float: none;
 		margin: 0 0 0 225px;
 		width: 550px;
+		height: 400px;
+	}
+	
+	.puh{
+	float: left;
+
 	}
 }
 

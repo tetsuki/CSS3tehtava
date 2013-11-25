@@ -19,8 +19,11 @@ body
 {
 	
 	float: left;
-	width: 200px;
+	width: 190px;
 	background-color: #4B62AD;
+	padding: 4px;
+	text-align: center;
+	
 
 }
 
@@ -107,7 +110,7 @@ font-size: 80%;
 	
 	#nav
 	{	
-		text-align: center;
+	
 		float: none;
 		width: auto;
 	}

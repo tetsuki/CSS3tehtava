@@ -4,9 +4,9 @@ RYHMÄ: Pekka Virtanen, Eeva Haataja
 
 URL:users.metropolia.fi/~XXXXXX
 
-HTML-koodi:
+[HTML-koodi](/index.html)
 
-CSS-koodi:
+[CSS-koodi](/tyyli.css)
 Responsive Design Basics - Kysymykset
 ------------------------
 Responsiivinen web-design tarkoittaa käyttäjänlaitteisiin sopeutuvaa designia. Käytännössä, käytät sitten tietokonetta, älypuhelinta tai tablettia, web-sivun oleellinen informaatio ja käytettävyys säilyy. Luodaan vain yksi sivu ja sisältö, mutta design säilyy käytetään sitten mitä laitetta hyvänsä.

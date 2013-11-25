@@ -107,15 +107,18 @@ a.palkki:active {color:#0000FF;}  /* selected link */
 	}
 }
 
-@media screen and (max-width:480px) 
+@media screen and (
+max-width:480px) 
 {
 	
 body{
 font-size: 80%;
+
 }
 	
 	
-	#container { width: 300px; }
+	#container { 
+	max-width:480px; }
 
 
 
@@ -149,3 +152,42 @@ font-size: 80%;
 	display: none; 
 	}
 }
+
+@media all and (orientation:portrait) { 
+
+body{
+font-size: 80%;
+}
+	
+	
+	#container { 
+	width: 100%;
+	max-width:400px; }
+
+ 	#nav
+	{	
+		text-align: center;
+		float: none;
+		width: auto;
+	}
+
+	#content
+	{
+		float: none;
+		width: auto;
+		height: 510px;
+		margin: 0;
+	}
+
+	#content_w
+	{
+		float: none;
+		width: auto;
+		margin: 0;
+		height: 150px;
+	}
+
+	.pimage { 
+	display: none; 
+	}
+} 

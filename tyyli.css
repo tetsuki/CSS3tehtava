@@ -83,7 +83,7 @@ a.palkki:active {
 
 
 	#nav{
-	display:none;
+	display:inline;
 	
 	}
 	
@@ -103,7 +103,7 @@ a.palkki:active {
 	{
 		clear: left;
 		float: none;
-		margin: 0 0 0 5px;
+		margin: 0 0 0 203px;
 		width: 550px;
 		height: 450px;
 	}

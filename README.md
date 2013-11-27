@@ -27,7 +27,11 @@ TAI:
 @media handheld { .. tähän väliin kaikki mobiililaitteisiin liittyvät tyylit }
 PITÄISIKÖ KIRJOITTAA YLEINEN LYHYT RAPORTTI TYÖSTÄ
 ==================================================
-
+- miten määriteltiin eri päätelaitteille sopivaksi?
+- Miten määrityksiä tietyille näyttökoille tehdään, miten koodi rakentuu css:ssä kun pohjalla yleisiä määrityksä koko sivua koskevia määrityksiä?
+- HTML-tagit
+- Mitä pääpointteja tulisi noudattaa mukautuvassa web designissa?
+- Jotain tollasta...???
 
 LG L5 E610
 ==========

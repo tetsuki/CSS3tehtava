@@ -20,12 +20,11 @@ body
 
 #nav
 {
-	
+	display:none;
 	float: left;
 	/*width: 200px;*/
-	width:20%;
-	background-color: #4B62AD;
-	height:1000px;
+	width: auto;
+
 
 }
 
@@ -62,12 +61,14 @@ ul
 	padding-left:10px;
 	padding-top: 10px;
 }
-
-a.palkki:link {color:#FF0000;}    /* unvisited link */
-a.palkki:visited {color:#CFCFD1;} /* visited link */
-a.palkki:hover {color:#FF00FF;}   /* mouse over link */
-a.palkki:active {color:#0000FF;}  /* selected link */
-
+a.palkki:link {
+	color:#F5F4F2;}    /* unvisited link */
+a.palkki:visited {
+	color:#CFCFD1;} /* visited link */
+a.palkki:hover {
+	color:#0000FF;}   /* mouse over link */
+a.palkki:active {
+	color:#0000FF;}  /* selected link */
 
 .pimage
 {
@@ -97,6 +98,8 @@ padding-left:30%;
 	.puh{
 	float: left;
 	padding-left:5%;
+	width:80%; /* you can use % */
+    height: auto;
 	
 
 	}
@@ -122,6 +125,8 @@ max-width:480px)
 		float: none;
 		width: auto;
 		height:auto;
+		display:inline;
+		
 	}
 	
 	#content
@@ -138,7 +143,9 @@ max-width:480px)
 }
 
 	.pimage { 
-	display: none; 
+	 width:50%; /* you can use % */
+    height: auto;
+	padding-left:30%;
 	}
 
 }

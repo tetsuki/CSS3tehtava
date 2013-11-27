@@ -18,10 +18,9 @@ body
 
 #nav
 {
-	
+	display:none;
 	float: left;
 	width: 190px;
-	background-color: #4B62AD;
 	padding: 4px;
 	text-align: center;
 	
@@ -63,10 +62,14 @@ ul
 	padding: 5px;
 }
 
-a.palkki:link {color:#FF0000;}    /* unvisited link */
-a.palkki:visited {color:#CFCFD1;} /* visited link */
-a.palkki:hover {color:#FF00FF;}   /* mouse over link */
-a.palkki:active {color:#0000FF;}  /* selected link */
+a.palkki:link {
+	color:#F5F4F2;}    /* unvisited link */
+a.palkki:visited {
+	color:#CFCFD1;} /* visited link */
+a.palkki:hover {
+	color:#0000FF;}   /* mouse over link */
+a.palkki:active {
+	color:#0000FF;}  /* selected link */
 
 
 .pimage
@@ -79,7 +82,10 @@ a.palkki:active {color:#0000FF;}  /* selected link */
 {
 
 
+	#nav{
+	display:none;
 	
+	}
 	
 	
 	#container { 
@@ -97,7 +103,7 @@ a.palkki:active {color:#0000FF;}  /* selected link */
 	{
 		clear: left;
 		float: none;
-		margin: 0 0 0 205px;
+		margin: 0 0 0 5px;
 		width: 550px;
 		height: 450px;
 	}
@@ -115,7 +121,7 @@ max-width:480px)
 {
 	
 body{
-font-size: 80%;
+
 
 }
 	
@@ -130,7 +136,7 @@ font-size: 80%;
 	
 	#nav
 	{	
-	
+		display:inline;
 		float: none;
 		width: auto;
 	}
@@ -139,7 +145,7 @@ font-size: 80%;
 	{
 		float: none;
 		width: auto;
-		height: 510px;
+		height: 100%;
 		margin: 0;
 	}
 
@@ -159,7 +165,7 @@ font-size: 80%;
 @media all and (orientation:portrait) { 
 
 body{
-font-size: 80%;
+
 }
 	
 	
@@ -178,7 +184,7 @@ font-size: 80%;
 	{
 		float: none;
 		width: auto;
-		height: 510px;
+		height: 100%;
 		margin: 0;
 	}
 
@@ -187,7 +193,7 @@ font-size: 80%;
 		float: none;
 		width: auto;
 		margin: 0;
-		height: 150px;
+		height: 250px;
 	}
 
 	.pimage { 

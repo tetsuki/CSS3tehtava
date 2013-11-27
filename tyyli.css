@@ -4,12 +4,14 @@ body
 	color: #000000;
 	background-color: #5976BA;
 	font-family: Verdana, Geneva, sans-serif;
+	width: 100%
 }
 
 #container
 {
 	float: left;
-	width: 1000px;
+	/*width: 1000px;*/
+	width: 100%;
 	background: #5976BA;
 	color: #FFFFFF;
 	height: 100%;
@@ -20,16 +22,16 @@ body
 {
 	
 	float: left;
-	width: 200px;
+	/*width: 200px;*/
+	width:20%;
 	background-color: #4B62AD;
+	height:1000px;
 
 }
 
 
 ul
 	{
-	
-
 	list-style-type: none;
 	padding: 0px;
 	margin: 0px;
@@ -37,27 +39,28 @@ ul
 	
 
 #content
-{
+	{
 	float: left;
-	width: 540px;
-	height: 750px;
+	/*width: 540px;*/
+	width: 50%;
+	/*height: 750px;*/
+	height:100%;
 	margin: 0 0 0 5px;
 	background-color: #87ABFF;
 	padding: 5px;
-	
-
-
-}
+	}
 
 #content_w
 {
 	float: left;
-	width: 230px;
-	height: 750px;
+	/*width: 230px;*/
+	width:220px;
+	height: 100%;
 	margin: 0 0 0 5px;
 	background-color: #FFFFFF;
 	color: #5976BA;
-	padding: 5px;
+	padding-left:10px;
+	padding-top: 10px;
 }
 
 a.palkki:link {color:#FF0000;}    /* unvisited link */
@@ -68,11 +71,79 @@ a.palkki:active {color:#0000FF;}  /* selected link */
 
 .pimage
 {
-	float: right;
+	float: left;
 	margin: 0 0 10px 10px;
+	width:200px;
 }
 
-@media screen and (max-width:999px)
+@media screen and (max-width:850px)
+{
+
+#content
+	{
+	width: 73.7%;
+	}
+#content_w
+{
+ 	width:75%;
+ 	float:left;
+ 	padding-left:0px;
+	margin: 0 0 0 5px;
+}
+#puhelinmallit{
+padding-left:30%;
+}
+
+	.puh{
+	float: left;
+	padding-left:5%;
+	
+
+	}
+
+@media screen and (max-width:650px)
+{
+
+
+	.pimage
+{
+	float: left;
+	padding-left:30%;
+}
+
+}
+
+@media screen and (
+max-width:480px) 
+{
+	#nav
+	{	
+		text-align: center;
+		float: none;
+		width: auto;
+		height:auto;
+	}
+	
+	#content
+	{
+	width: 94%;
+	margin: 0 0 0 0px;
+	}
+	#content_w
+{
+ 	width:94%;
+ 	float:left;
+ 	padding-left:0px;
+	margin: 0 0 0 5px;
+}
+
+	.pimage { 
+	display: none; 
+	}
+
+}
+
+/*@media screen and (max-width:999px)
 {
 
 
@@ -190,4 +261,4 @@ font-size: 80%;
 	.pimage { 
 	display: none; 
 	}
-} 
+} */

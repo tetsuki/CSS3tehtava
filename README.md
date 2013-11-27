@@ -2,7 +2,7 @@ CSS3 Media Query
 ================
 RYHMÄ: Pekka Virtanen, Eeva Haataja
 
-URL:users.metropolia.fi/~XXXXXX
+URL:https://dl.dropboxusercontent.com/u/105512596/css3/toinen/index.html
 
 [HTML-koodi](/index.html)
 
@@ -25,6 +25,9 @@ ESIM:
 
 TAI:
 @media handheld { .. tähän väliin kaikki mobiililaitteisiin liittyvät tyylit }
+PITÄISIKÖ KIRJOITTAA YLEINEN LYHYT RAPORTTI TYÖSTÄ
+==================================================
+
 
 LG L5 E610
 ==========
@@ -39,3 +42,6 @@ Samsung Galaxy S3
 Raportti sivustolla käynnistä.
 Tukeeko puhelin Media Querya?
 Käyttökokemus?
+
+Sivusto aukeaa matkapuhelimellani css-määrityksen mukaan, joka on luotu pienimille näyttöresoluutioille. Sivulla näkyy mobiililaitteella myös navigointipalkki niinkuin pitääkin. Isoimmilla näkymillä navipalkki on poistettu näkyvistä, koska sitä ei noin pienellä sivulla tarvitse. Sivusto latautuu nopeasti kun ei siinä mitään erikoista ole. Sivustoa on helppo käyttää matkapuhelimella, koska siinä selaaminen tapahtuu vain suuntiin ylös ja ales. Uskoakseni Samsung Galaxy S3 tukee media quarya, koska sama sivusto saadaan css perusteella mukautettua sekä työpöydälle että mobiililaitteen ruudulle. Puhelin tunnistaa css:ssässä oleviä näyttökoko määritteitä.
+

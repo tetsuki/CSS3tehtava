@@ -24,6 +24,7 @@ body
 	float: left;
 	/*width: 200px;*/
 	width: auto;
+	padding-bottom: 4px;
 
 
 }
@@ -44,7 +45,7 @@ ul
 	width: 50%;
 	/*height: 750px;*/
 	height:100%;
-	margin: 0 0 0 5px;
+	margin: 0 0 0 0px;
 	background-color: #87ABFF;
 	padding: 5px;
 	}
@@ -55,7 +56,7 @@ ul
 	/*width: 230px;*/
 	width:220px;
 	height: 100%;
-	margin: 0 0 0 5px;
+	margin: 0 0 0 0px;
 	background-color: #FFFFFF;
 	color: #5976BA;
 	padding-left:10px;
@@ -82,24 +83,23 @@ a.palkki:active {
 
 #content
 	{
-	width: 73.7%;
+	width: 74%;
 	}
 #content_w
 {
- 	width:75%;
+ 	width:77%;
  	float:left;
  	padding-left:0px;
-	margin: 0 0 0 5px;
+	margin: 0 0 0 0px;
 }
 #puhelinmallit{
-padding-left:30%;
+padding-left:10%;
 }
 
 	.puh{
 	float: left;
 	padding-left:5%;
-	width:80%; /* you can use % */
-    height: auto;
+
 	
 
 	}
@@ -112,6 +112,8 @@ padding-left:30%;
 {
 	float: left;
 	padding-left:30%;
+	width:50%; /* you can use % */
+    height: auto
 }
 
 }
@@ -120,12 +122,12 @@ padding-left:30%;
 max-width:480px) 
 {
 	#nav
-	{	
-		text-align: center;
+	{		
+	
 		float: none;
 		width: auto;
 		height:auto;
-		display:inline;
+	
 		
 	}
 	

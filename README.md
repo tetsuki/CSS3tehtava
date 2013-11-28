@@ -25,15 +25,12 @@ ESIM:
 
 TAI:
 @media handheld { .. tähän väliin kaikki mobiililaitteisiin liittyvät tyylit }
-PITÄISIKÖ KIRJOITTAA YLEINEN LYHYT RAPORTTI TYÖSTÄ OK! mut ei ylisuoriteta?
-==================================================
-- miten määriteltiin eri päätelaitteille sopivaksi?
-- Miten määrityksiä tietyille näyttökoille tehdään, miten koodi rakentuu css:ssä kun pohjalla yleisiä määrityksä koko sivua koskevia määrityksiä?
-- HTML-tagit
-- Mitä pääpointteja tulisi noudattaa mukautuvassa web designissa?
-- Jotain tollasta...???
+
+Kommentointi
+============
+
  
- Aluksi oli hieman hankalaa sillä, kaikki tyylit olivat samassa tiedostossa. Mutta sitten kuin Pekka laittoi desktop.css ja mobile.css tiedostot, joihin ohjattiin sitten html-tiedostossa, sivusto alkoi näyttämään jo säädylliseltä. Sivuston käytössä on 2 css tiedostoa; jompikumpi on köytössä riippuen selailuun käytettävästä laitteesta. Seuraavassa koodit:
+Aluksi oli hieman hankalaa sillä, kaikki tyylit olivat samassa tiedostossa. Mutta sitten kuin Pekka laittoi desktop.css ja mobile.css tiedostot, joihin ohjattiin sitten html-tiedostossa, sivusto alkoi näyttämään jo säädylliseltä. Sivuston käytössä on 2 css tiedostoa; jompikumpi on köytössä riippuen selailuun käytettävästä laitteesta. Seuraavassa koodit:
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" media="only screen and (max-width: 400px)" href="mobile.css" />

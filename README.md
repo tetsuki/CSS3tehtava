@@ -25,13 +25,20 @@ ESIM:
 
 TAI:
 @media handheld { .. tähän väliin kaikki mobiililaitteisiin liittyvät tyylit }
-PITÄISIKÖ KIRJOITTAA YLEINEN LYHYT RAPORTTI TYÖSTÄ
+PITÄISIKÖ KIRJOITTAA YLEINEN LYHYT RAPORTTI TYÖSTÄ OK! mut ei ylisuoriteta?
 ==================================================
 - miten määriteltiin eri päätelaitteille sopivaksi?
 - Miten määrityksiä tietyille näyttökoille tehdään, miten koodi rakentuu css:ssä kun pohjalla yleisiä määrityksä koko sivua koskevia määrityksiä?
 - HTML-tagit
 - Mitä pääpointteja tulisi noudattaa mukautuvassa web designissa?
 - Jotain tollasta...???
+ 
+ Aluksi oli hieman hankalaa sillä, kaikki tyylit olivat samassa tiedostossa. Mutta sitten kuin Pekka laittoi desktop.css ja mobile.css tiedostot, joihin ohjattiin sitten html-tiedostossa, sivusto alkoi näyttämään jo säädylliseltä. 
+ 
+
+
+
+
 
 LG L5 E610
 ==========
@@ -39,6 +46,8 @@ LG L5 E610
 Raportti sivustolla käynnistä.
 Tukeeko puhelin Media Querya?
 Käyttökokemus?
+
+Puhelimeni tukee Media Querya, mutta välillä sen kanssa ilmenee ongelmia. Syy lienee puhelimen vajaavaisuus. Tämän huomaa siitä ilmestyykö navigointipalkki vai ei. Useinmiten näkyy ja tällöin myös käyttökokemus on miellyttävä. Sivustoa on helpompi lukea kun se on asetettu sopivaksi juuri puhelimelle. Mitään mobiileille tarkotettua infoa ei jää huomaamatta ja sivustolla on mukava liikkua vain ylös ja alas. 
 
 Samsung Galaxy S3
 =================

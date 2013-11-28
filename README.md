@@ -33,11 +33,13 @@ PITÄISIKÖ KIRJOITTAA YLEINEN LYHYT RAPORTTI TYÖSTÄ OK! mut ei ylisuoriteta?
 - Mitä pääpointteja tulisi noudattaa mukautuvassa web designissa?
 - Jotain tollasta...???
  
- Aluksi oli hieman hankalaa sillä, kaikki tyylit olivat samassa tiedostossa. Mutta sitten kuin Pekka laittoi desktop.css ja mobile.css tiedostot, joihin ohjattiin sitten html-tiedostossa, sivusto alkoi näyttämään jo säädylliseltä. 
+ Aluksi oli hieman hankalaa sillä, kaikki tyylit olivat samassa tiedostossa. Mutta sitten kuin Pekka laittoi desktop.css ja mobile.css tiedostot, joihin ohjattiin sitten html-tiedostossa, sivusto alkoi näyttämään jo säädylliseltä. Loimme kaksi css-tiedostoa, joihin html-dokumentista ohjattaan riippuen minkälaisella laitteella sivua katsottaan. Seuraavassa koodit:
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" media="only screen and (max-width: 400px)" href="mobile.css" />
         <link rel="stylesheet" media="only screen and (min-width: 401px)" href="desktop.css"
+
+CSS-koodit on rumaa katsottavaa, koska kokeilu tuotti tuloksen copy-paste menetelmällä alkuperäisestä luomastamme CSS-dokumentista. Pienellä säädöllä siitä saatiin toimiva. Olimme tuolloin tyytyväisiä tulokseen. Pääpointteina sivuston mukautuvuudessa oli se että elementtien koko määritteet annetaan prosentteina jolloin ne on aina suhteellisia näyttävät mahdollisesti paremmalta isolla ja pienellä näytöllä. Määritteen luotiin niin että kun näytön koko ei esimerkiksi enää täyttänyt tiettyä raja arvoa niin tuolloin käyttöön astui haluamia uusia tyylimäärityksiä. Toisena hyvänä pointtina oli miettiä että mitä on oleellista näyttää milläkin erilaisella näytöllä. Esimerkiksi meidän sivulla navigointi palkki näkyy vain kun on käytössä mobiilikokoluokan näyttölaite. Työpöytä selaimessa navigointia ei näytetä koska sille ei ole käyttöä.
 
  
 

@@ -34,6 +34,11 @@ PITÄISIKÖ KIRJOITTAA YLEINEN LYHYT RAPORTTI TYÖSTÄ OK! mut ei ylisuoriteta?
 - Jotain tollasta...???
  
  Aluksi oli hieman hankalaa sillä, kaikki tyylit olivat samassa tiedostossa. Mutta sitten kuin Pekka laittoi desktop.css ja mobile.css tiedostot, joihin ohjattiin sitten html-tiedostossa, sivusto alkoi näyttämään jo säädylliseltä. 
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" media="only screen and (max-width: 400px)" href="mobile.css" />
+        <link rel="stylesheet" media="only screen and (min-width: 401px)" href="desktop.css"
+
  
 
 

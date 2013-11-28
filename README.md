@@ -33,7 +33,7 @@ PITÄISIKÖ KIRJOITTAA YLEINEN LYHYT RAPORTTI TYÖSTÄ OK! mut ei ylisuoriteta?
 - Mitä pääpointteja tulisi noudattaa mukautuvassa web designissa?
 - Jotain tollasta...???
  
- Aluksi oli hieman hankalaa sillä, kaikki tyylit olivat samassa tiedostossa. Mutta sitten kuin Pekka laittoi desktop.css ja mobile.css tiedostot, joihin ohjattiin sitten html-tiedostossa, sivusto alkoi näyttämään jo säädylliseltä. Loimme kaksi css-tiedostoa, joihin html-dokumentista ohjattaan riippuen minkälaisella laitteella sivua katsottaan. Seuraavassa koodit:
+ Aluksi oli hieman hankalaa sillä, kaikki tyylit olivat samassa tiedostossa. Mutta sitten kuin Pekka laittoi desktop.css ja mobile.css tiedostot, joihin ohjattiin sitten html-tiedostossa, sivusto alkoi näyttämään jo säädylliseltä. Sivuston käytössä on 2 css tiedostoa; jompikumpi on köytössä riippuen selailuun käytettävästä laitteesta. Seuraavassa koodit:
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" media="only screen and (max-width: 400px)" href="mobile.css" />
